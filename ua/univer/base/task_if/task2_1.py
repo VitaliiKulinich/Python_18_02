@@ -1,7 +1,7 @@
-a = 21
-b = 31
-c = 324
-d = 442356
+a = 5
+b = 20
+c = 10
+d = 10
 max = a
 if max <= b:max = b
 if max <= c:max = c
