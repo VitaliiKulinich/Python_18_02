@@ -15,5 +15,5 @@ dict1 = {
     11: y,
     12: x
 }
-a = 4
+a = 3
 print(dict1[a])
