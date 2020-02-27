@@ -13,4 +13,3 @@ def count_negative_value(x1, x2, x3):
     if x3 < 0: counter += 1
     print("Negative count {0}".format(counter))
 
-count_negative_value(12, 31, -321)
