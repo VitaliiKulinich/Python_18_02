@@ -8,7 +8,7 @@ def enter_positive_int():
         print("Not positive, your number 0")
         return 0
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
 
     print("hi main")
 
