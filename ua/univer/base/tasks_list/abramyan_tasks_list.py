@@ -12,11 +12,26 @@ def buble_sort(arr):
     return arr
 
 
-int
-def task1():
-    arr = create_random_massive(10)
+def simple_sort(arr):
+    n = len(arr)-1
+    for i in range(len(arr)):
+        newarr = []
+        for x in arr[0:-i]:
+            newarr.append(x)
+
+        print(newarr)
+        a = arr.pop(newarr.index(max(newarr)))
+        arr.append(a)
     print(arr)
 
 
+def tasks():
+    arr = create_random_massive(12)
+    print(arr)
+    arr1 = simple_sort(arr)
+    print(arr1)
+    return arr1
+
+
 if __name__ == "__main__":
-    task1()
+    tasks()
