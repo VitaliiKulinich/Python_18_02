@@ -1,9 +1,22 @@
 def main():
     arr = [1, 2, 3, 134, 532, 523, 31]
-    with open("int_arr.txt", "a") as int_file:
-        print("\n\r")
-        for i in arr:
-            int_file.write(str(i)+";")
+
+    with open("text_file.txt", "r") as file:
+        lines = []
+        for i in range(len(arr)):
+            lines.append(file.readline())
+        lines = lines[:-2]
+        print(lines)
+
+        lines2 = []
+        for i in lines:
+            lines2.append(i.split(";"))
+        print(lines2)
+
+        lines3 = []
+        for i in range(len(lines2)):
+            for j in lines2[i]:
+
 
 
 
