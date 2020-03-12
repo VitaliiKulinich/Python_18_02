@@ -14,8 +14,9 @@ def main():
         print(lines2)
 
         lines3 = []
-        for i in range(len(lines2)):
-            for j in lines2[i]:
+        for row in lines2:
+            lines3.append(row[0:2])
+        print(lines3)
 
 
 

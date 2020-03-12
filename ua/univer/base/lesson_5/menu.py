@@ -1,5 +1,5 @@
-from ua.univer.base.lesson5.__main__ import input_data
-from ua.univer.base.lesson5.acount import calculate_complex_rate, calculate_simple_rate
+from ua.univer.base.lesson_5.__main__ import input_data
+from ua.univer.base.lesson_5.acount import calculate_complex_rate, calculate_simple_rate
 
 
 def menu():

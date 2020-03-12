@@ -1,5 +1,5 @@
-from ua.univer.base.lesson5.acount import *
-from ua.univer.base.lesson5.menu import *
+from ua.univer.base.lesson_5.acount import *
+from ua.univer.base.lesson_5.menu import *
 
 
 def input_data():
