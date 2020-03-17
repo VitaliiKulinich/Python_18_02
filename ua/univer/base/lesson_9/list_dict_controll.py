@@ -3,12 +3,12 @@ def print_ru_by_eng_key(dict_er):
         print(f"{key} = {dict_er[key]}")
 
 
-def find_word(dict_er):
+def find_word(list_dict):
     lang_from = input("Enter language from translate")
     lang_to = input("Enter language to translate")
     word = input("Enter eng word for translate")
     for dict_eruf in list_dict:
-        if lang_from in dict_er and lang_to in dict_eruf:
+        if lang_from in dict_eruf and lang_to in dict_eruf:
             if dict_eruf[lang_from] == word:
                 print(dict_eruf[lang_to])
                 return

@@ -29,7 +29,7 @@ if __name__ == '__main__':
         elif key == 2:
             write_dict_to_csv(list_dict)
         elif key == 3:
-            find_or_add(list_dict)
+            find_word(list_dict)
         elif key == 4:
             add_word(list_dict)
         elif key == 5:
