@@ -16,3 +16,7 @@ if __name__ == '__main__':
     products.write_to_csv("products.csv")
     products.read_from_csv("products.csv")
     products.print()
+
+
+    print("\n")
+    print(p1)
