@@ -25,5 +25,8 @@ class Human:
     def eat(self):
         print("Eat")
 
+    def list_of_fields(self):
+        return [self.name, self.age]
+
     def __str__(self):
         return f"{self.name}, {self.age}"

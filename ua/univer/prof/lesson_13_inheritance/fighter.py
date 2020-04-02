@@ -32,5 +32,8 @@ class Fighter(Human):
         else:
             print(f"{fighter.name} winner")
 
+    def list_of_fields(self):
+        return ["Fighter", self.name, self.age, self.power, self.defence]
+
     def __str__(self):
         return f"{self.name}, {self.age}, {self.power}, {self.defence}"

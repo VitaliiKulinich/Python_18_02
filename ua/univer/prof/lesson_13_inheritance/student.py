@@ -17,5 +17,8 @@ class Student(Human):
     def study(self):
         print("Study")
 
+    def list_of_fields(self):
+        return ["Student", self.name, self.age, self.group]
+
     def __str__(self):
         return f"{self.name}, {self.age}, {self.group}"

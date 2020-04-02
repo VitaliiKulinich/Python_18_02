@@ -17,5 +17,8 @@ class Doctor(Human):
     def cure(self):
         print("Cure")
 
+    def list_of_fields(self):
+        return ["Doctor", self.name, self.age, self.licence]
+
     def __str__(self):
         return f"{self.name}, {self.age}, {self.licence}"
