@@ -1,7 +1,7 @@
-from ua.univer.prof.lesson_13_inheritance.doctor import Doctor
-from ua.univer.prof.lesson_13_inheritance.fighter import Fighter
-from ua.univer.prof.lesson_13_inheritance.human_factory import Human_factory
-from ua.univer.prof.lesson_13_inheritance.student import Student
+from ua.univer.prof.lesson_13_14_inheritance.doctor import Doctor
+from ua.univer.prof.lesson_13_14_inheritance.fighter import Fighter
+from ua.univer.prof.lesson_13_14_inheritance.human_factory import Human_factory
+from ua.univer.prof.lesson_13_14_inheritance.student import Student
 
 
 def cafe(human):

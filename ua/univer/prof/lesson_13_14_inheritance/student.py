@@ -1,4 +1,4 @@
-from ua.univer.prof.lesson_13_inheritance.human import Human
+from ua.univer.prof.lesson_13_14_inheritance.human import Human
 
 
 class Student(Human):
