@@ -1,10 +1,9 @@
 from ua.univer.prof.homework_15.batmobile import CBatMobile
 from ua.univer.prof.lesson_15_vehicles.amfibia import CAmfibia
 from ua.univer.prof.lesson_15_vehicles.car import CCar
-from ua.univer.prof.lesson_15_vehicles.dog import Dog
 from ua.univer.prof.lesson_15_vehicles.plane import CPlane
 from ua.univer.prof.lesson_15_vehicles.ship import CShip
-from ua.univer.prof.lesson_15_vehicles.vehicle_interfaces import IMove, ISwim
+from ua.univer.prof.lesson_15_vehicles.vehicle_interfaces import ISwim
 from ua.univer.prof.lesson_15_vehicles.vehilce import Coord
 
 
