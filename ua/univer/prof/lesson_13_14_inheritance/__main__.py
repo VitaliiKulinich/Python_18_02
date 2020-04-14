@@ -31,7 +31,6 @@ def print_10_human_from_factory():
 if __name__ == '__main__':
 
     humans_factory = Human_factory()
-    #print_10_human_from_factory()
     humans = humans_factory.read_from_csv("humans.csv")
 
     print("What kind of human find?")

@@ -23,7 +23,7 @@ if __name__ == '__main__':
             students.init_5_students()
         elif key == 2:
             faculty = input("Faculty: ")
-            st_list = students. get_students_by_faculty(faculty)
+            st_list = students.get_students_by_faculty(faculty)
         elif key == 3:
             st_list = students.get_students_with_average_mark_greater_than(4)
             for st in st_list:
